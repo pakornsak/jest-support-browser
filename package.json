@@ -1,0 +1,26 @@
+{
+  "name": "support-browsers",
+  "version": "0.0.1",
+  "description": "Check if react code an run on specified Chrome version",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakornsak/support-browsers.git"
+  },
+  "keywords": [
+    "support-browsers",
+    "chrome"
+  ],
+  "author": "Pakornsak Supamongkonchaikul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pakornsak/support-browsers/issues"
+  },
+  "homepage": "https://github.com/pakornsak/support-browsers#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
