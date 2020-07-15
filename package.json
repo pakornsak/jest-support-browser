@@ -1,5 +1,5 @@
 {
-  "name": "support-browser",
+  "name": "jest-support-browser",
   "version": "0.0.2",
   "description": "Ensure react app can run on lower Chrome version",
   "main": "index.js",
@@ -8,18 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pakornsak/support-browser.git"
+    "url": "git+https://github.com/pakornsak/jest-support-browser.git"
   },
   "keywords": [
-    "support-browser",
+    "jest-support-browser",
     "chrome"
   ],
   "author": "Pakornsak Supamongkonchaikul",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pakornsak/support-browser/issues"
+    "url": "https://github.com/pakornsak/jest-support-browser/issues"
   },
-  "homepage": "https://github.com/pakornsak/support-browser#readme",
+  "homepage": "https://github.com/pakornsak/jest-support-browser#readme",
   "devDependencies": {
     "jest": "^26.1.0"
   }
