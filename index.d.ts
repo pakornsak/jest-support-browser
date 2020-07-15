@@ -1,4 +1,4 @@
-declare function supportBrowsers(): void;
-declare namespace supportBrowsers {}
+declare function supportChrome(version: number): void;
+declare namespace supportChrome {}
 
-export = supportBrowsers;
+export = supportChrome;
