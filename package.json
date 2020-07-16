@@ -1,6 +1,6 @@
 {
   "name": "jest-support-browser",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Ensure react app can run on lower Chrome version",
   "main": "index.js",
   "scripts": {
