@@ -40,7 +40,8 @@ const supportChrome = (v) => {
     String.prototype.trimStart = missing;
   }
   if (v < 57) {
-    // String.prototype.at = missing; //non-standard
+    // @ts-ignore
+    String.prototype.at = missing; //non-standard
     String.prototype.padEnd = missing;
     String.prototype.padStart = missing;
   }
