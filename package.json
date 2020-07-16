@@ -2,8 +2,12 @@
   "name": "jest-support-browser",
   "version": "0.0.4",
   "description": "Ensure react app can run on lower Chrome version",
-  "main": "index.js",
+  "main": "src/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
+    "build": "npm run build:umd && npm run build:esm",
+    "build:esm": "cross-env BABEL_ENV=esm babel src --out-dir dist/esm",
+    "build:umd": "cross-env BABEL_ENV=umd webpack --mode=production",
     "test": "jest"
   },
   "repository": {
@@ -21,6 +25,16 @@
   },
   "homepage": "https://github.com/pakornsak/jest-support-browser#readme",
   "devDependencies": {
-    "jest": "^26.1.0"
+    "@babel/cli": "7.6.2",
+    "@babel/core": "7.6.2",
+    "@babel/plugin-proposal-class-properties": "7.5.5",
+    "@babel/preset-env": "7.6.2",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "7.6.2",
+    "cross-env": "^7.0.2",
+    "jest": "^26.1.0",
+    "webpack": "4.41.0",
+    "webpack-cli": "3.3.9"
   }
 }
