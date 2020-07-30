@@ -1,3 +1,1 @@
-declare function supportChrome(version: number): void;
-
-export = supportChrome;
+export function chrome(version: number): void;

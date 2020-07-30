@@ -4,7 +4,7 @@ const missing = undefined;
 /**
  * @param {number} v
  */
-const supportChrome = (v) => {
+const chrome = (v) => {
   // deprecated
   String.prototype.anchor = missing;
   String.prototype.big = missing;
@@ -131,4 +131,5 @@ const supportChrome = (v) => {
   }
 };
 
-module.exports = supportChrome;
+const supportBrowser = { chrome };
+module.exports = supportBrowser;
