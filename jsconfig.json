@@ -3,5 +3,5 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "baseUrl": "."
   },
-  "include": ["index.js"]
+  "include": ["src/**/*"]
 }
