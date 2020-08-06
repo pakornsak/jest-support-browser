@@ -3,7 +3,9 @@
  * @param {number} v
  */
 const regexpFeature = (v) => {
+  //
   // RegExp.escape = missing; // es7.regexp
+  //
   // if (v < 50) {
   //   RegExp.prototype.unicode = missing; //readonly
   //   RegExp.prototype[Symbol.match] = missing; // core-js error
